@@ -32,6 +32,6 @@ All the visuals made by me. / Todos os visuais feitos por mim.
 
 ![SnakeGame](https://user-images.githubusercontent.com/50464577/63559563-a50d8080-c528-11e9-9476-1fa0aaa9e441.jpg)
 ***
-Thanks for paying attention!  
-Obrigado pela atenção!
+If you have any question, send his to my e-mail: matheuzhenrik@gmail.com
+My linkedin is: https://www.linkedin.com/in/matheuskolln/
 ***
