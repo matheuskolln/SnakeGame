@@ -66,13 +66,13 @@ def run():
                 pygame.quit()
             # Relations of the input(keyboard) to the output(snake moving)
             if event.type == KEYDOWN:
-                if event.key == K_UP:
+                if event.key == K_UP and my_direction != DOWN:
                     my_direction = UP
-                if event.key == K_DOWN:
+                if event.key == K_DOWN and my_direction != UP:
                     my_direction = DOWN
-                if event.key == K_RIGHT:
+                if event.key == K_RIGHT and my_direction != LEFT:
                     my_direction = RIGHT
-                if event.key == K_LEFT:
+                if event.key == K_LEFT and my_direction != RIGHT:
                     my_direction = LEFT
         # Defines what happens if the snake collides with the apple(when the size is smaller than 10)
         if collision.collide(snake[0], apple_pos) and len(snake) < 10:
